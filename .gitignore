@@ -1,0 +1,34 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local/editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Runtime logs
+*.log
+
+# Generated pipeline outputs
+fielded_processed_tokens.json
+fielded_processed_tokens.json.tmp
+inverted_index.json
+preprocessing_validation.txt
+inverted_index_validation.txt
+
+# Local crawl/load artifacts at repo root
+IMDB_crawled.json
+IMDB_crawled.json.tmp
+IMPLEMENTATION_DETAILS.md
